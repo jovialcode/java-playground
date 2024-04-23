@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jovialcode.jdk1_2.BinaryTreeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-23T03:00:05" hostname="JOVIALCODE" time="114.127">
+  <properties/>
+  <testcase name="createBinaryTree()" classname="org.jovialcode.jdk1_2.BinaryTreeTest" time="114.127"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
