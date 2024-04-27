@@ -29,6 +29,30 @@ public class BinaryTree<T> {
         return findAndInsertNode(currentNode.left, value) || findAndInsertNode(currentNode.right, value);
     }
 
+    public void preorder(TreeNode current){
+        if (Objects.isNull(current)) return;
+
+        System.out.println(current);
+        preorder(current.left);
+        preorder(current.right);
+    }
+
+    public void inorder(TreeNode current){
+        if (Objects.isNull(current)) return;
+
+        preorder(current.left);
+        System.out.println(current);
+        preorder(current.right);
+    }
+
+    public void postorder(TreeNode current){
+        if (Objects.isNull(current)) return;
+
+        preorder(current.left);
+        preorder(current.right);
+        System.out.println(current);
+    }
+
     private static class TreeNode<T>{
         T val;
         TreeNode<T> left;
